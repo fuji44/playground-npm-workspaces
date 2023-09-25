@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "ts-node serve.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "express": "^4.18.2",
+    "shared": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@types/express": "^4.17.18",
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "playground-npm-workspaces",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build -w shared",
+    "preserve": "npm run build",
+    "serve": "npm run serve -w server",
+    "pretest": "npm run build",
+    "test": "npm run test -w shared -w server"
+  },
+  "workspaces": [
+    "shared",
+    "server"
+  ]
+}
